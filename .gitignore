@@ -1,0 +1,9 @@
+GPATH
+GRTAGS
+GTAGS
+TAGS
+
+/.vagrant
+
+.idea
+nbproject

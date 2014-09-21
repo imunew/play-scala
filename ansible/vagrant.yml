@@ -1,0 +1,13 @@
+- hosts: all
+  sudo: true
+  roles:
+    - { role: roles/common }
+    - { role: roles/java }
+    - { role: roles/play }
+#    - { role: roles/web    }
+#    - { role: roles/cache  }
+#    - { role: roles/db     }
+  vars:
+    app_domain: play-scala.localhost
+    app_root_path: /apps
+    nginx_use_basic: false
